@@ -30,31 +30,6 @@ router.get('/', function(req, res, next) {
 
           });
     });    
-  let newObj = {
-        id:3, 
-        title:"Wendy's", 
-        item:
-              {
-              name:"Cheese", 
-              type:"burger"
-              }
-      };
-        //res.json(newObj.item.name);
-  //     client.connect(async (err) => {
-    
-  //       //console.log("starting to wait");
-  //   // return await collect.find(query) // TODO: Work on sending the request to the database.
-  //   //   .sort()
-  //   //   .toArray()
-  //   //   .catch(err => console.log(err))
-  //   //   .then((items) => {
-  //   //     if (items.length <= 0) {
-  //   //       collect.insertOne(obj);
-  //   //     }
-  //   //     return items;
-  //   //   });
-  // });
-
 });
 
 
