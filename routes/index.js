@@ -35,6 +35,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/:id', function(req, res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', 'localhost:3100');
   res.redirect('<h1>No User Available</h1>');
 });
 
