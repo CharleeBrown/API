@@ -35,7 +35,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/:id', function(req, res) {
-  res.send('<h1>No User Available</h1>');
+  res.redirect('<h1>No User Available</h1>');
 });
 
 module.exports = router;
