@@ -27,7 +27,7 @@ router.get('/', function(req, res, next) {
                 collect.insertOne(obj);
             }
                 res.setHeader('Access-Control-Allow-Origin', '*');
-                res.setHeader('Access-Control-Allow-Origin', 'localhost');
+                res.setHeader('Access-Control-Allow-Origin', 'localhost:3100');
                 res.json(items);
 
           });
