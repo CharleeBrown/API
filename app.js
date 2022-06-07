@@ -20,7 +20,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors({
   methods: 'GET,POST', 
-  optionsSuccessStatus:200
+  optionsSuccessStatus:200, 
+  origin:'https://testing-api-one.herokuapp.com/'
 }));
 app.options('*', cors());
 app.use('/', indexRouter);
