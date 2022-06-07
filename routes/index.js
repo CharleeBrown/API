@@ -26,7 +26,6 @@ router.get('/', function(req, res, next) {
             {
                 collect.insertOne(obj);
             }
-                res.setHeader('Access-Control-Allow-Origin', '*');
                 res.json(items);
 
           });
