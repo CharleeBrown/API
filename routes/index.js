@@ -32,6 +32,17 @@ router.get('/', function(req, res, next) {
     });    
 });
 
+
+router.post('/', function(req, res, next) {
+
+  client.connect(async (err) => 
+  {
+    let newObj = {req:body};
+    console.log("UNACCEPTABLEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!")
+  
+  });
+});
+
 module.exports = router;
 
 
